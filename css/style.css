@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+/* reset html */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+    background-color: red;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* area navbar */
+.navbar-gaz {
+  width: 100%;
+  height: 10%;
+  background-color: rebeccapurple;
+}
+
+.navbar-image {
+  display: flex;
+  position: relative;
+  top: 1rem;
+  align-items: center;
+  left: 2rem;
+}
+
+.navbar-image h3 {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -0.02em;
+  top: 0.3rem;
+  color: white;
+}
+
+.navbar-image img {
+  width: 50px;
+  margin-right: 0.7rem;
+}
+
+.menu-gaz {
+  display: flex;
+  position: relative;
+  bottom: 1.2rem;
+}
+
+.menu-gaz li {
+  margin-right: 3rem;
+  letter-spacing: 0.1em;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 500;
+}
+
+.menu-gaz ul,
+li {
+  display: flex;
+}
