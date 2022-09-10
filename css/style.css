@@ -68,6 +68,7 @@ input {
 }
 
 body {
+  min-height: 3000px;
   overflow-x: hidden;
   background: #41295a;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
@@ -77,9 +78,15 @@ background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, F
 
 /* area navbar */
 .navbar-gaz {
+  position: fixed;
   width: 100%;
   height: 10%;
-  /* background-color: rgb(43, 15, 71); */
+  background-color: rgb(43, 15, 71);
+}
+
+.menu-list-gaz a {
+  color: white;
+  text-decoration: none;
 }
 
 .navbar-image {
@@ -110,7 +117,7 @@ background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, F
 }
 
 .menu-gaz li {
-  margin-right: 3rem;
+  margin-left: 3rem;
   letter-spacing: 0.1em;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: white;
@@ -120,4 +127,53 @@ background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, F
 .menu-gaz ul,
 li {
   display: flex;
+}
+
+/* area footer */
+.footer-gaz {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #41295a;
+}
+
+.footer-background-gaz {
+  width: 100%;
+  background-color: #2F0743;
+  border-top-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+}
+
+.gambar-footer-gaz {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.gambar-footer-gaz h3 {
+  position: relative;
+  top: 0.4rem;
+  color: white;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.gambar-footer-gaz img {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+.follow-as {
+  color: white;
+  letter-spacing: 0.3rem;
+}
+
+.list-footer {
+  padding-bottom: 3rem;
+}
+
+.copyright span {
+  color: white;
+  font-size: small;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
