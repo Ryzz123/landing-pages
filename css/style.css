@@ -159,8 +159,8 @@ li {
 .jumbotron {
   height: 100%;
   width: 100%;
-  background: rgb(136,3,159);
-background: linear-gradient(90deg, rgba(136,3,159,1) 0%, rgba(69,18,106,0) 65%);
+  background: rgba(136, 3, 159, 0.411);
+  background: linear-gradient(90deg, rgba(115, 3, 159, 0.466) 0%, rgba(69,18,106,0) 85%);
 }
 
 .container-gaz h3 {
@@ -206,18 +206,20 @@ background: linear-gradient(90deg, rgba(136,3,159,1) 0%, rgba(69,18,106,0) 65%);
   padding-top: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .card-gaz {
   margin-right: 3rem;
-  height: 240px;
-  width: 450px;
+  height: 194px;
+  width: 348px;
   border-radius: 11px;
   border: 4px solid #9d0498;
-  background: rgb(49,1,92);
-  background: linear-gradient(101deg, rgba(49,1,92,1) 5%, rgba(49,1,92,1) 56%, rgb(101, 8, 122) 90%);
+  background: linear-gradient(89.71deg, #6929AF 1.95%, #3B2999 99.75%);
   text-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 .card-gaz-list {
@@ -225,12 +227,12 @@ background: linear-gradient(90deg, rgba(136,3,159,1) 0%, rgba(69,18,106,0) 65%);
   font-size: x-large;
   font-family: 'Poppins',Arial, Helvetica, sans-serif;
   position: relative;
-  top: 5rem;
+  top: 3rem;
 }
 
 .card-button {
   position: relative;
-  top: 7rem;
+  top: 5rem;
   padding: 10px 20px ;
   color: white;
   font-size: small;
@@ -256,6 +258,13 @@ background: linear-gradient(90deg, rgba(136,3,159,1) 0%, rgba(69,18,106,0) 65%);
   color:  white;
   padding-bottom: 1rem;
 }
+
+.gaz-tv-layar img {
+  width: 600px;
+  border-radius: 15px;
+  background-color: #2F0743;
+}
+/*  */
 
 /* carousel */
 .carousel-item img {
