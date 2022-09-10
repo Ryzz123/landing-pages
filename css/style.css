@@ -73,9 +73,8 @@ body {
   overflow-x: hidden;
   /* overflow-y: hidden; */
   background: #41295a;
-background: -webkit-linear-gradient(to right, #2F0743, #41295a);
-background: linear-gradient(to right, #2F0743, #41295a); 
-
+  background: -webkit-linear-gradient(to right, #2f0743, #41295a);
+  background: linear-gradient(to right, #2f0743, #41295a);
 }
 
 /* area navbar */
@@ -160,7 +159,7 @@ li {
   height: 100%;
   width: 100%;
   background: rgba(136, 3, 159, 0.411);
-  background: linear-gradient(90deg, rgba(115, 3, 159, 0.466) 0%, rgba(69,18,106,0) 85%);
+  background: linear-gradient(90deg, rgba(115, 3, 159, 0.466) 0%, rgba(69, 18, 106, 0) 85%);
 }
 
 .container-gaz h3 {
@@ -168,7 +167,7 @@ li {
   text-shadow: 0px 2px 7px #000000;
   color: white;
   font-size: 50px;
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .container-gaz button {
@@ -176,7 +175,7 @@ li {
   left: 9rem;
   border: 1px white solid;
   color: #7000a8;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
   border-radius: 7px;
   font-size: small;
@@ -187,14 +186,16 @@ li {
 .container-konten {
   position: relative;
   padding-top: 5rem;
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .container-konten h3 {
   font-size: 35px;
   font-weight: 600;
-  color:  white;
+  color: white;
+  text-shadow: 0px 2px 7px #000000;
   padding-bottom: 1rem;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .container-konten img {
@@ -216,7 +217,7 @@ li {
   width: 348px;
   border-radius: 11px;
   border: 4px solid #9d0498;
-  background: linear-gradient(89.71deg, #6929AF 1.95%, #3B2999 99.75%);
+  background: linear-gradient(89.71deg, #6929af 1.95%, #3b2999 99.75%);
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -225,7 +226,7 @@ li {
 .card-gaz-list {
   color: white;
   font-size: x-large;
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   position: relative;
   top: 3rem;
 }
@@ -233,7 +234,7 @@ li {
 .card-button {
   position: relative;
   top: 5rem;
-  padding: 10px 20px ;
+  padding: 10px 20px;
   color: white;
   font-size: small;
   border-radius: 20px;
@@ -255,23 +256,100 @@ li {
 .gaz-tv h3 {
   font-size: 35px;
   font-weight: 600;
-  color:  white;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 0px 2px 7px #000000;
   padding-bottom: 1rem;
 }
 
 .gaz-tv-layar img {
   width: 600px;
   border-radius: 15px;
-  background-color: #2F0743;
+  background-color: #2f0743;
 }
-/*  */
+
+/* gaz event */
+.gaz-event {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.gaz-event h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0px 2px 7px #000000;
+  padding-bottom: 1rem;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.gaz-event-card {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif
+}
+
+.gaz-event-card-1 {
+  position: relative;
+  width: 359px;
+  height: 410px;
+  border: solid 3px #3f046c;
+  border-radius: 8px;
+  background: rgb(49, 1, 92);
+  background: linear-gradient(101deg, rgba(49, 1, 92, 1) 5%, rgba(49, 1, 92, 1) 56%, rgba(1, 1, 1, 1) 90%);
+}
+
+.gaz-event-card-2 {
+  position: relative;
+  z-index: 1;
+  border-radius: 8px;
+  bottom: 0.8rem;
+  left: 0.3rem;
+  width: 359px;
+  height: 410px;
+  border: solid 3px #3f046c;
+}
+
+.gaz-event-card-3 {
+  position: relative;
+  z-index: 2;
+  border-radius: 8px;
+  bottom: 0.8rem;
+  left: 0.3rem;
+  width: 359px;
+  height: 410px;
+  border: solid 3px #3f046c;
+}
+
+.gaz-event-card-3 img {
+  position: relative;
+  background-color: #630aa3;
+  border-radius: 12px;
+  width: 110px;
+  right: 7.5rem;
+}
+
+.gaz-event-card-3 .judul-event {
+  text-align: start;
+  color: white;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  padding: 60px 0px 15px 15px;
+}
+
+.gaz-event-card-3 p {
+  text-align: start;
+  padding: 15px;
+  color: white;
+}
 
 /* carousel */
 .carousel-item img {
   object-fit: cover;
 }
 
-.carousel-item{
+.carousel-item {
   height: 100%;
   min-height: 100px;
 }
@@ -287,14 +365,14 @@ li {
   text-align: center;
   position: relative;
   top: 5rem;
-    width: 100%;
-    background: linear-gradient(89.71deg, rgba(98, 20, 168, 0.5) 1.95%, rgba(59, 41, 153, 0.5) 99.75%);
+  width: 100%;
+  background: linear-gradient(89.71deg, rgba(98, 20, 168, 0.5) 1.95%, rgba(59, 41, 153, 0.5) 99.75%);
 }
 
 .footer-background-gaz {
   width: 100%;
-  background: rgb(49,1,92);
-  background: linear-gradient(101deg, rgba(49,1,92,1) 5%, rgba(49,1,92,1) 56%, rgba(1,1,1,1) 90%);
+  background: rgb(49, 1, 92);
+  background: linear-gradient(101deg, rgba(49, 1, 92, 1) 5%, rgba(49, 1, 92, 1) 56%, rgba(1, 1, 1, 1) 90%);
   border-top-left-radius: 10rem;
   border-bottom-right-radius: 10rem;
 }
@@ -311,7 +389,7 @@ li {
 
 .gambar-footer-gaz h3 {
   padding-top: 0.7rem;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -332,14 +410,14 @@ li {
   text-align: center;
   color: #fff;
   letter-spacing: 10.1769px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 700;
   font-size: 16px;
   line-height: 38px;
 }
 
 .social-text {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -384,7 +462,7 @@ li {
 }
 
 .copyright-gaz {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
   font-size: 10px;
@@ -395,4 +473,18 @@ li {
 
 .copyright-gaz-new {
   padding-top: 3rem;
+}
+
+.card-gaz a {
+  color: white;
+  text-decoration: none;
+}
+
+.card-gaz a:hover {
+  color: white;
+}
+
+/* responsif */
+@media  (max-width: 767px) {
+
 }
