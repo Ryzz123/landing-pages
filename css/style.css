@@ -231,12 +231,30 @@ background: linear-gradient(90deg, rgba(136,3,159,1) 0%, rgba(69,18,106,0) 65%);
 .card-button {
   position: relative;
   top: 7rem;
-  padding: 10px 70px ;
+  padding: 10px 20px ;
   color: white;
   font-size: small;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.403);
   border: 0px solid white;
+  transition: 2s;
+}
+
+.card-button:hover {
+  padding: 10px 70px;
+}
+
+/* gaz tv */
+.gaz-tv {
+  position: relative;
+  margin-top: 6rem;
+}
+
+.gaz-tv h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color:  white;
+  padding-bottom: 1rem;
 }
 
 /* carousel */
