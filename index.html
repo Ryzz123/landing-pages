@@ -12,20 +12,32 @@
   <body>
 
     <!-- area navbar -->
-    <div class="navbar-gaz">
-        <div class="navbar-image">
-        <img src="img/gaz.png" alt="profile gaz" />
-        <h3 class="gaz-esport">GAZ esport</h3>
+    <nav class="navbar navbar-expand-lg navbar-gaz">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/gaz.png" alt="Logo" width="40" class="d-inline-block align-text-center">
+          GAZ Esport
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gaz Ladies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tour.html">Gaz Tournament</a>
+            </li>
+        </div>
       </div>
-      <div class="menu-gaz justify-content-center">
-        <ul class="menu-list-gaz">
-            <li class="gaz-list"><a href="">Home</a></li>
-            <li class="gaz-list"><a href="">About</a></li>
-            <li class="gaz-list"><a href="">GAZ Ladies</a></li>
-            <li class="gaz-list"><a href="">GAZ Tournament</a></li>
-        </ul>
-      </div>
-    </div>
+    </nav>
     <!-- akhir area navbar -->
 
     <!-- area jumbotron/slide -->
@@ -33,78 +45,128 @@
         <div class="jumbotron">
           <div class="container-gaz">
             <h3 class="gaz-play">GAZ Tournament</h3>
-            <button class="button-gaz">JOIN YUK <i class="fa-solid fa-caret-right"></i></button>
+            <a href="tour.html"><button class="button-gaz">JOIN YUK <i class="fa-solid fa-caret-right"></i></button></a>
           </div>
         </div>
       </div>
     <!-- area akhir jumbotron -->
 
-    <!-- area konten -->
-      <div class="container-konten text-center">
-        <div class="gaz-tournament-head">
-          <h3 class="gaz-tournament">GAZ Tournament</h3>
-          <img src="img/11.jpg" alt="">
-        </div>
-        <div class="gaz-tournament-card">
-          <div class="card-gaz text-center">
-            <span class="card-gaz-list ">Jadwal</span><br>
-            <button class="card-button">Lihat Di Sini <i class="fa-solid fa-caret-right"></i></button>
+
+    <!-- area tournament -->
+    <section id="tournament" class="tournament">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pt-10">
+              <h2>GAZ Tournament</h2>
+              <img src="img/11.jpg" alt="" width="200">
+            </div>
           </div>
-          <div class="card-gaz text-center">
-            <span class="card-gaz-list ">Pendaftaran</span><br>
-            <button class="card-button"><a href="fame.html"> Lihat Di Sini <i class="fa-solid fa-caret-right"></i></a></button>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white ">
+                <h5>Jadwal</h5>
+                <div class="hover">
+                  <a href="https://challonge.com/gazesport"
+                  target="_blank"
+                  class="cta">
+                  <span>Lihat Di Sini</span>
+                  <svg width="13px" height="13px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+                </div>
+            </div>
           </div>
-          <div class="card-gaz text-center">
-            <span class="card-gaz-list ">Hall Of Fame</span><br>
-            <button class="card-button">Lihat Di Sini <i class="fa-solid fa-caret-right"></i></button>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white">
+                <h5>Pendaftaran</h5>
+                <div class="hover">
+                  <a href="https://wa.me/+6281928286803"
+                  target="_blank"
+                  class="cta">
+                  <span>Lihat Di Sini</span>
+                  <svg width="13px" height="13px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
+                </a>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4" >
+            <div class="card text-white ">
+                <h5>Hall Of Fame</h5>
+                <div class="hover">
+                  <a href="tour.html" class="cta">
+                    <span>Lihat Di Sini</span>
+                    <svg width="13px" height="13px" viewBox="0 0 13 10">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
     <!-- area akhir konten -->
     
-    <!-- area gaz tv -->
-      <div class="gaz-tv text-center">
-        <div class="gaz-tv-container">
-          <div class="gaz-tournament-head">
-            <h3 class="gaz-tournament">GAZ TV</h3>
+
+     <!-- Link YT -->
+     <section id="thumbnail" class="thumbnail">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center p-5">
+            <div class="video-gaz">
+              <h1>GAZ TV</h1>
+              <div class="video-container">
+                <div class="video rounded-4"><img src="img/thumbnail.jpg" alt="" width="300"></video></div>
+              </div>
+              <div class="popup-video">
+                <span>&times;</span>
+                <iframe width="600" height="300" src="https://www.youtube.com/embed/KWp1kpxBWKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
           </div>
-          <div class="gaz-tv-layar">
-            <img src="img/thumbnail.jpg" alt="" class="width=300">
           </div>
         </div>
       </div>
-    <!-- akhir area gaz tv -->
+    </section>    
+    <!-- Akhir Link YT -->
 
     <!-- area card -->
       <div class="gaz-event text-center">
         <div class="gaz-tournament-head">
           <h3 class="gaz-tournament">COOMING SOON</h3>
         </div>
-        <div class="gaz-event-card">
-          <div class="gaz-event-card-1">
-            <div class="gaz-event-card-2">
-              <div class="gaz-event-card-3">
-                <img src="img/logo-.png" alt="">
-                <p class="judul-event">Gaz Tournament For Aviation Personnel</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae qui harum error nulla dolorum porro, quia mollitia nisi facere, veniam doloribus possimus</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card card-gaz" style="width: 330px;">
+                <div class="card-body card-1 text-start">
+                  <img src="img/Frame 131.png" alt="" class="mb-5">
+                  <h4 class="card-subtitle mb-4">Gaz Tournament <br>For Aviation Personnel</h4>
+                  <p class="card-text">For pilots, Flight attendants, dispatchers, aviation security, aviation staff & ground staff.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="gaz-event-card-1">
-            <div class="gaz-event-card-2">
-              <div class="gaz-event-card-3">
-                <img src="img/logo-.png" alt="">
-                <p class="judul-event">Gaz Tournament For Aviation Personnel</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae qui harum error nulla dolorum porro, quia mollitia nisi facere, veniam doloribus possimus</p>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card card-gaz" style="width: 330px;">
+                <div class="card-body card-2 text-start">
+                  <img src="img/Frame 131.png" alt="" class="mb-5">
+                  <h4 class="card-subtitle mb-4">Gaz Ladies</h4>
+                  <p class="card-text">Squad yang dibentuk pada 17 Agustus 2022, Squad Have Fun menjadi kompetitif adalah bonus </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="gaz-event-card-1">
-            <div class="gaz-event-card-2">
-              <div class="gaz-event-card-3">
-                <img src="img/logo-.png" alt="">
-                <p class="judul-event">Gaz Tournament For Aviation Personnel</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae qui harum error nulla dolorum porro, quia mollitia nisi facere, veniam doloribus possimus</p>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card card-gaz" style="width: 330px;">
+                <div class="card-body card-2 text-start">
+                  <img src="img/Frame 131.png" alt="" class="mb-5">
+                  <h4 class="card-subtitle mb-4">Gaz Academy</h4>
+                  <p class="card-text">Coaching clinic, mikro-makro strategi & effective Communication bersama para pro coach</p>
+                </div>
               </div>
             </div>
           </div>
@@ -135,12 +197,26 @@
           </a>
         </div>
         <div class="copyright-gaz-new">
-            <span class="copyright-gaz">Copyright &copy; 2022 GAZ Esport</span>
+            <span class="copyright-gaz">Copyright &copy; 2022. GAZ Esport</span>
         </div>
       </div>
     </div>
     <!-- AKhir Footer -->
 
+
+
+    <script> 
+      document.querySelectorAll('.video-container img').forEach(vid => {
+        vid.onclick = () => {
+          document.querySelector('.popup-video').style.display = 'block';
+          document.querySelector('.popup-video').src = vid.getAttribute('src')
+        }
+      });
+  
+      document.querySelector('.popup-video span ').onclick = () => {
+        document.querySelector('.popup-video').style.display = 'none'; 
+      }
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
